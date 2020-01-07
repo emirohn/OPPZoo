@@ -1,0 +1,88 @@
+body {
+    background-image:url("images/backdrop.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+}
+
+#zooWord{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#name, #animalType, #favoriteFood, #createNew, #selectFood, #selectFoodButton, #oldName, #newName, #renameButton{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#createNew, #selectFoodButton, #renameButton{
+
+}
+
+#animalUpdates{
+    position: fixed;
+    right: 325px;
+    top: 250px;
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#animalsList{
+    position: fixed;
+    right: 100px;
+    top: 250px;
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#createAnimals{
+    position: fixed;
+    left: 100px;
+    top: 250px;
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#feedAnimals{
+    position: fixed;
+    left: 475px;
+    top: 250px;
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#renameAnimals{
+    position: fixed;
+    left: 100px;
+    top: 575px;
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+}
+
+tr,td{
+    padding: 10px;
+}
+
+
+#tableTitle{
+    font-weight: bold;
+}
